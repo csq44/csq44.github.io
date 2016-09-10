@@ -11,3 +11,24 @@ img {
 footer {
 	text-align: center;
 }
+
+#background {
+background-image: url("images/00000007.jpg");
+width:	400px;
+padding: 10px;
+
+}
+#font {
+	font: italic bold 12px/30px Georgia, serif;
+	width: 850px;
+}
+
+a:visited {
+    color: pink;
+    }
+
+@media screen and (max-width: 500px) {
+  #wrapper {
+    font-size: 20px;
+  }
+}
